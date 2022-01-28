@@ -1,0 +1,23 @@
+dependencias de desarrollo
+reiniciar el servidor: para ahorra tiempo en luf¿gar de reiniciar y reiniciar
+  
+    npm i nodemon --save-dev 
+
+    npm i nodemon -D        version corta
+
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+
+  corre con:
+
+  npm run devrs
+
+
+  ///
+
+  lunes practica
+
+  hacer end point que al llamarlo nos regrese el contenido de 
+  un archivo text.txt GET/file
